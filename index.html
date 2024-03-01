@@ -1,67 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>11056 - module 2 - basic page</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+ <header>
+    <h1><a href="#">Canberra Modern</a></h1> 
+   
+    <nav>
+     
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    
+    </nav>
+  </header>
 
-    <header>
-        <h1>Main Heading (h1)</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <section class="hero">
+    <div class="background-image"></div>
+    <div class="hero-content-area">
+      <h2>Welcome To The</h2>
+      <h6>Canberra Modern</h6>
+      <h3>Website!</h3>
+      <h3>Canberra Modern is a team of heritage and design enthusiasts dedicated to the preservation of the city they call home.</h3>
+    </div>
+  </section>
 
-    <section>
-        <article>
-            <h2>Article Heading (h2)</h2>
-            <p>This is a paragraph within an article.</p>
-            <img src="./assets/images/cbr-1970s.jpg" alt="Descriptive Image">
-            <p>Another paragraph within the article.</p>
-        </article>
-
-        <aside>
-            <h2>Aside Heading (h2)</h2>
-            <p>This is some additional content in the aside section.</p>
-        </aside>
+  <section class="destinations">
+    <h3 class="title">Our Motto</h3> 
+    <p>Canberra Modern runs a vibrant annual program that celebrates the distinctive mid and late twentieth-century architecture and locales of Canberra. Embracing the motto of 'Conservation Through Participation,' our initiative strives to raise awareness of Canberra’s rich modernist heritage and its unparalleled character. Through dynamic and innovative events, we engage the community, fostering a deeper appreciation for the city's unique architectural legacy. By advocating for these invaluable spaces and encouraging active involvement, Canberra Modern endeavors to safeguard and cherish the irreplaceable contributions they make to our city's historic and cultural fabric.</p> 
+  </section> 
+       
+      <section class="news" id="news">
+      <h9 class="title"> Our Upcoming Events</h9>
+        <div class="container">
+            <div class="card">
+              <div class="card__header">
+                <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/mcs.png?v=1709290091843" class="card__image" width="600">
+              </div>
+              <div class="card__body"> 
+                <span class="tag">EPIC Park</span>
+                <h4>Modern Car Show</h4> <br>
+                <p>Join us Tuesday the 9th of March from 9am to 2pm to look at some of the best modern cars Canberra has to offer!</p>
+               </div>
+             </div>
+            
+            <div class="card">
+              <div class="card__header">
+                <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/rs%3Dw%201280%2Ch%20853.png?v=1709290109184" alt="card__image" class="card__image" width="600">
+              </div>
+              <div class="card__body">
+                <span class="tag">WOTSO Woden</span>
+                <h4>2024 Modern achitecture summit</h4> <br>
+                <p>Join us Friday the 23rd of April for our annual achitectural summit, canberras best articutre networking event!</p>
+              </div>
+                    </div>
+            <div class="card">
+                <div class="card__header">
+                  <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/rs%3Dw%20776%2Ch%20388%2Ccg%20true.png?v=1709290121758" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                  <span class="tag">NCCC</span>
+                  <h4>Annual Modern Model Showcase</h4> <br>
+                  <p>Join us Sunday the 18th of May to explore all the amazing architectural models from all around Austrlia!</p>
+                </div>
+          </div>
     </section>
-
-    <main>
-        <h2>Main Content Section (h2)</h2>
-        <p>This is the main content of the page.</p>
-
-        <h3>Subheading (h3)</h3>
-        <p>Another paragraph under the subheading.</p>
-
-        <ul>
-            <li>Unordered List Item 1</li>
-            <li>Unordered List Item 2</li>
-            <li>Unordered List Item 3</li>
-        </ul>
-
-        <ol>
-            <li>Ordered List Item 1</li>
-            <li>Ordered List Item 2</li>
-            <li>Ordered List Item 3</li>
-        </ol>
-
-        <dl>
-            <dt>Definition Term 1</dt>
-            <dd>Definition Description 1</dd>
-            <dt>Definition Term 2</dt>
-            <dd>Definition Description 2</dd>
-        </dl>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
-    </footer>
-
+  
+            
+          
+        <section class="destinations">
+    <h3 class="title">Explore Our gallery</h3>
+    <ul class="grid">
+      <li class="small image-1"></li>
+      <li class="large image-2"></li>
+      <li class="large image-3"></li>
+      <li class="small image-4"></li>
+    </ul>
+  </section>       
+          
+  
+    <section class="news" id="news">
+      <h9 class="title">Our recent Articles</h9>
+        </div>
+        <div class="container">
+            <div class="card">
+              <div class="card__header">
+                <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/bradley_callum_Canberra-Modern.jpg?v=1709290151725" class="card__image" width="600">
+              </div>
+              <div class="card__body">
+                <span class="tag">Project Preservation</span>
+                <h4>Help Save Callam Offices</h4> <br>
+                <p>Callam Offices has been under threat of demolition officially since AUgust 2023 Sign the petition to savel this modern marvel... </p>
+              </div>
+              <div class="card__footer">
+                <div class="user">
+                  <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/20230331_143210(2).jpg?v=1709291107726" alt="user__image" class="user__image" width="40" 
+     height="40">
+                  <div class="user__info">
+                    <h5>Max Bre</h5>
+                    <small>Yesterday</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__header">
+                <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/School-of-Music_1.jpg?v=1709290180832" alt="card__image" class="card__image" width="600">
+              </div>
+              <div class="card__body">
+                <span class="tag">Restoration</span>
+                <h4>Works Underway on ANU's School of Music</h4> <br>
+                <p>With the recent rains this the ANU School of Music Building has been in despirate need of restoration...</p>
+              </div>
+              <div class="card__footer">
+                <div class="user">
+                  <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/IMG_2652(1).JPG?v=1709291094429" alt="user__image" class="user__image" width="40" 
+     height="40">
+                  <div class="user__info">
+                    <h5>Nik Chi</h5>
+                    <small>27/02/24</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card__header">
+                  <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/unicanberra%20house.png?v=1709290145473" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                  <span class="tag">Insider Insights</span>
+                  <h4>Interviewing a Builder</h4> <br>
+                  <p> The University House building is nestled in the ANU Campus Brian Bannatyne Lewis was the architect of this magnificent building...</p>
+                </div>
+                <div class="card__footer">
+                  <div class="user">
+                    <img src="https://cdn.glitch.global/768ee2e3-989d-486c-babe-17a083641e78/IMG_3598(1).png?v=1709291079936" alt="user__image" class="user__image" width="40" 
+     height="40">
+                    <div class="user__info">
+                      <h5>Nia Ivy</h5>
+                      <small>18/02/24</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+       </div class="container">
+      </section class="news" id="news"> 
+          
+<section>
+  <h3 class="title">Our Community Gallery</h3>
+  <p>Conribute by using the following hashtag on your instagram today!</p>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-dc10a719-7323-416c-9db1-449d9f092cd7" data-elfsight-app-lazy></div>
+</section>
+<section>
+  <ol>
+    <h3 class="title">Thanks For Visting!</h3 class="title">
+    <p>Lets Keep In Touch!</p>
+</ol>
+</section>
 </body>
 </html>
